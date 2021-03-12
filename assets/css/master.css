@@ -38,6 +38,7 @@ nav {
 .btn {
   border-radius: 10px;
   padding: 10px 24px;
+  margin-left: 10px;
 }
 
 .btn.bg-black {
