@@ -63,10 +63,10 @@ nav {
 
 .dropdown-menu {
   position: absolute;
-  border: 1px solid black;
   border-radius: 10px;
   top: 35px;
   left: -80px;
+  box-shadow: 0 1px 0px rgb(0 0 0 / 16%), 0 1px 9px rgb(0 0 0 / 23%);
 }
 
 
@@ -86,7 +86,7 @@ nav {
   display: flex;
 }
 
-.w150 {
+.w160 {
   width:160px;
 }
 
