@@ -89,6 +89,22 @@ header {
   text-transform: uppercase;
 }
 
+ul li a:hover {
+  color: #000;
+}
+
+.btn.bg-grey:hover {
+  background-color: #ebebeb;
+}
+
+.btn.bg-black:hover {
+  background-color: #454545;
+}
+
+
+
+
+
 
 /* BgColors */
 .bg-grey {
@@ -108,6 +124,10 @@ header {
 
 .w160 {
   width:160px;
+}
+
+.active {
+  color: #000;
 }
 
 /* /Utilities */
