@@ -18,7 +18,7 @@ nav {
 }
 
 header {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid lightgrey;
 }
 
 .container {
@@ -37,6 +37,14 @@ header {
 .nav-left > ul > li,
 .nav-right > ul > li {
   padding: 0 19px;
+}
+
+.nav-right > ul > li.with-dropdown:after{
+  content: "";
+  position: absolute;
+  display: block;
+  height: 20px;
+  width: 50px;
 }
 
 .btn {
