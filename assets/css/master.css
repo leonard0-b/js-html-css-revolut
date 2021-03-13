@@ -44,7 +44,7 @@ header {
   position: absolute;
   display: block;
   height: 20px;
-  width: 50px;
+  width: 100%;
 }
 
 .btn {
@@ -105,10 +105,6 @@ ul li a:hover {
   background-color: #454545;
 }
 
-.nav-left > ul > li > a:active {
-  color: #000;
-}
-
 .coming-soon-box {
   position: relative;
 }
@@ -120,6 +116,10 @@ ul li a:hover {
   position: absolute;
   top: 0;
   right: 25%;
+}
+
+.active {
+  color: #000;
 }
 
 /* BgColors */

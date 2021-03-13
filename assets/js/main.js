@@ -1,6 +1,7 @@
 $(document).ready(function(){
   mouseEnterLeave();
   menuPosition ();
+  clickColor ();
 })
 
 
@@ -29,5 +30,11 @@ function menuPosition () {
     } else {
       $(this).children(".dropdown-menu").css("left", "-30px");
     }
+  })
+}
+
+function clickColor (){
+  $(".nav-left > ul > li > a").click(function (){
+    $(this).addClass("active");
   })
 }
