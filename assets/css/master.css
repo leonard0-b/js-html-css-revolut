@@ -22,7 +22,7 @@ header {
 }
 
 .container {
-  width: 80%;
+  max-width: 1370px;
   margin: auto;
 }
 
@@ -45,14 +45,6 @@ header {
   margin-left: 10px;
 }
 
-.btn.bg-black {
-  color: #fff;
-}
-
-.btn.bg-grey {
-  color: #000;
-}
-
 .dis-none {
   display: none !important;
 }
@@ -66,12 +58,16 @@ header {
 }
 
 .dropdown-menu {
-  z-index: 2;
+  background-color: #fff;
   position: absolute;
   border-radius: 10px;
   top: 35px;
   left: -80px;
   box-shadow: 0 1px 0px rgb(0 0 0 / 16%), 0 1px 9px rgb(0 0 0 / 23%);
+}
+
+.dropdown-menu > div > ul > li > a {
+  font-size: 13px;
 }
 
 .fas {
@@ -101,10 +97,22 @@ ul li a:hover {
   background-color: #454545;
 }
 
+.nav-left > ul > li > a:active {
+  color: #000;
+}
 
+.coming-soon-box {
+  position: relative;
+}
 
-
-
+.coming-soon {
+  text-transform: uppercase;
+  color: blue;
+  font-size: 8px;
+  position: absolute;
+  top: 0;
+  right: 25%;
+}
 
 /* BgColors */
 .bg-grey {
@@ -116,6 +124,19 @@ ul li a:hover {
 }
 /* /BgColors */
 
+/* colors */
+.txt-grey {
+  color: #BABBBC;
+}
+
+.txt-white {
+  color: #fff;
+}
+
+.txt-black {
+  color: #000;
+}
+/* /colors */
 
 /* Utilities */
 .flex {
@@ -124,10 +145,6 @@ ul li a:hover {
 
 .w160 {
   width:160px;
-}
-
-.active {
-  color: #000;
 }
 
 /* /Utilities */
