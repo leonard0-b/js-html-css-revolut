@@ -33,8 +33,8 @@ function menuPosition () {
   })
 }
 
-function clickColor (){
-  $(".nav-left > ul > li > a").click(function (){
-    $(this).addClass("active");
-  })
-}
+// function clickColor (){
+//   $(".nav-left > ul > li > a").click(function (){
+//     $(this).addClass("active");
+//   })
+// }
